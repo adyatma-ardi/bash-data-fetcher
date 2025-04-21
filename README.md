@@ -15,5 +15,5 @@ include functionalities such as:<br>
   - Downloading and saving remote files
   - Scheduling fetch tasks via cron (optional)<br><br>
   
-This project is ideal for those looking to automate data fetching without relying on heavier programming <br>
-environments like Python or Node.js.
+This project is ideal for those looking to automate data fetching without relying on heavier <br>
+programming environments like Python or Node.js.
