@@ -45,7 +45,7 @@ On Native windwos systems (without WSL), it's recommended to use Git Bash or an 
 <u>Using Terminal (CLI method)</u>
 - Clone the repo:<br>
   ```bash
-  git clone https://github.com/your-username/bash-data-fetcher.git
+  git clone https://github.com/adyatma-ardi/bash-data-fetcher.git
   cd bash-data-fetcher
   ```
 -  
