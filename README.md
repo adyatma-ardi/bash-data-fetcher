@@ -8,11 +8,11 @@ for accessing APIs, downloading datasets, and automating simple data retrieval t
 directly from the command line<br>
 (B) 🛠️ Brief Description<br>
 "<i>bash-data-fetcher</i>" is a collection of reusable Bash scripts designed to interact <br>
-with web APIs or public data sources using tools like curl, wget, and jq. The scripts include<br>
-functionalities such as:<br>
+with web APIs or public data sources using tools like <i>curl, wget, and jq</i>. The scripts <br>
+include functionalities such as:<br>
   - Sending GET requests to RESTful APIs
   - Parsing JSON responses
   - Downloading and saving remote files
-  - Scheduling fetch tasks via cron (optional)<br>
+  - Scheduling fetch tasks via cron (optional)<br><br>
 This project is ideal for those looking to automate data fetching without relying on heavier programming <br>
 environments like Python or Node.js.
