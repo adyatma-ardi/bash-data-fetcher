@@ -30,9 +30,10 @@ Before installing and using "bash-data-fetcher", ensure your system meets the fo
 requirements:<br>
 <b>Operating System</b>: Linux, macOS, or Windows with WSL<br>
 <b>Bash version</b>: 4.0 or higher<br>
-<b>Depenndencies</b>:<br>
+<b>Dependencies</b>:<br>
   - curl (for HTTP requests)
   - jq (for parsing JSON)
+
 <b>Memory</b>: At least 1 GB RAM<br>
 <b>Storage</b>: At least 100 MB of free disk space<br>
 <b>Internet</b>: Required for fetching data from APIs or external sources<br>
@@ -42,8 +43,8 @@ On Native windwos systems (without WSL), it's recommended to use Git Bash or an 
 
 (B) 🚀 Installation Steps<br>
 <u>Using Terminal (CLI method)</u>
-- Clone the repo:
-  ```bash#!/bin/bashgit clone https://github.com/your-username/bash-data-fetcher.git cd bash-data-fetcher```
+- Clone the repo:<br>
+  ```bash #!/bin/bashgit clone https://github.com/your-username/bash-data-fetcher.git cd bash-data-fetcher```
 -  
 
 
