@@ -44,7 +44,10 @@ On Native windwos systems (without WSL), it's recommended to use Git Bash or an 
 (B) 🚀 Installation Steps<br>
 <u>Using Terminal (CLI method)</u>
 - Clone the repo:<br>
-<pre>```bash #!/bin/bash curl -s https://api.github.com/users/octocat | jq '.name'``` </pre>
+```bash
+git clone https://github.com/your-username/bash-data-fetcher.git
+cd bash-data-fetcher
+```
 -  
 
 
