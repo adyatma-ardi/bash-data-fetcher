@@ -4,7 +4,7 @@
 (A) 🔍 Project Purpose<br>
 The purpose of this project is to demonstrate how to fetch and process data using pure Bash scripting. It provides a lightweight, dependency-minimal solution for accessing APIs, downloading datasets, and automating simple data retrieval tasks directly from the command line<br>
 (B) 🛠️ Brief Description<br>
-bash-data-fetcher is a collection of reusable Bash scripts designed to interact with web APIs or public data sources using tools like curl, wget, and jq. The scripts include functionalities such as:\n
+"<i>bash-data-fetcher</i>" is a collection of reusable Bash scripts designed to interact with web APIs or public data sources using tools like curl, wget, and jq. The scripts include functionalities such as:<br>
 1. Sending GET requests to RESTful APIs
 2. Parsing JSON responses
 3. Downloading and saving remote files
