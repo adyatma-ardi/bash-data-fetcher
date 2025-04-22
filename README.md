@@ -17,7 +17,7 @@ include functionalities such as:<br>
   
 This project is ideal for those looking to automate data fetching without relying on heavier <br>
 programming environments like Python or Node.js.<br><br>
-<b>(C) Target Users</b><br>
+<b>(A.3) Target Users</b><br>
 This repository is created for:<br>
 - System administrators who need to automate regular data pulls
 - Data engineers working in low-resource environments or shell-first systems.
