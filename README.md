@@ -50,12 +50,12 @@ On Native windwos systems (without WSL), it's recommended to use Git Bash or an 
   ```
 -  Make the script executable
    ```bash
-      chmod +x fetch.sh
+   chmod +x fetch.sh
    ```
 -  (optional) Add to your PATH:
    ```bash
-      echo 'export PATH="$PATH:$HOME/bash-data-fetcher"' >> ~/.bashrc
-      source ~/.bashrc
+   echo 'export PATH="$PATH:$HOME/bash-data-fetcher"' >> ~/.bashrc
+   source ~/.bashrc
    ```
 <b>b. Using GitHub Desktop (GUI method)</b>
 1. Clone this repository using GitHub Desktop
