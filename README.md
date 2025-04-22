@@ -63,9 +63,8 @@ On Native windwos systems (without WSL), it's recommended to use Git Bash or an 
 3. Open your terminal in that directory
 4. Run:
    ```bash
-  chmod +x fetch.sh
-  ```
-5. 
+   chmod +x fetch.sh
+   ```
 
 
 (A) 🔍 Project Purpose<br>
