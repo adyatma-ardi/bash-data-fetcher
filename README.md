@@ -1,12 +1,12 @@
 # bash-data-fetcher
 
-### <b>Introduction</b><br>
-<b>(A) Project Purpose<br></b>
+### <b>A. Introduction</b><br>
+<b>(A.1) Project Purpose<br></b>
 The purpose of this project is to demonstrate how to fetch and process data <br>
 using pure Bash scripting. It provides a lightweight, dependency-minimal solution <br>
 for accessing APIs, downloading datasets, and automating simple data retrieval tasks <br>
 directly from the command line<br><br>
-<b>(B) Brief Description</b><br>
+<b>(A.2) Brief Description</b><br>
 "<i>bash-data-fetcher</i>" is a collection of reusable Bash scripts designed to interact <br>
 with web APIs or public data sources using tools like <i>curl, wget, and jq</i>. The scripts <br>
 include functionalities such as:<br>
@@ -24,8 +24,8 @@ This repository is created for:<br>
 - Developers who want quick CLI tools for API testing and prototyping
 - Linux/Bash learners seeking hands-on examples of practical shell scripting 
 
-### <b>Installation and Setup</b><br>
-<b>(A) System Requirements</b><br>
+### <b>B. Installation and Setup</b><br>
+<b>(B.1) System Requirements</b><br>
 Before installing and using "bash-data-fetcher", ensure your system meets the following minimum <br>
 requirements:<br>
 Operating System: Linux, macOS, or Windows with WSL<br>
@@ -41,7 +41,7 @@ Internet: Required for fetching data from APIs or external sources<br>
 Note:<br>
 On Native windwos systems (without WSL), it's recommended to use Git Bash or an equivalent terminal that supports Bash scripting.<br>
 
-<b>(B) Installation Steps</b><br>
+<b>(B.2) Installation Steps</b><br>
 a. Using Terminal (CLI method)
   - Clone the repo:<br>
     ```bash
@@ -65,14 +65,24 @@ b. Using GitHub Desktop (GUI method)
       ```bash
        chmod +x fetch.sh
       ```
-### <b>Initial Configuration</b><br>
-   1. Create yout ow
-   2. Navigate to the folder on your computer
-   3. Open your terminal in that directory
-   4. Run:
-      ```bash
-       chmod +x fetch.sh
-      ```
+### <b>B.3 Initial Configuration</b><br>
+1. Create your own config file
+   ```bash
+   cp .env.example .env
+   ```
+3. Edit .env to set your preferences
+   ```bash
+   nano .env
+   ```
+   ```ini
+   API_URL="https://api.example.com/data"
+   OUTPUT_FORMAT="json"
+   SAVE_TO_FILE="true"
+   ```
+5. Run a test to check everything's working
+   ```bash
+   ./fetch.sh --test
+   ```
 
 (A) 🔍 Project Purpose<br>
 (A) 🔍 Project Purpose<br>
