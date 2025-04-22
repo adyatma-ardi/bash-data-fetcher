@@ -1,7 +1,7 @@
 # bash-data-fetcher
 
 ### 📘 <b>Introduction</b><br>
-<b>(A) 🔍 Project Purpose<br></b><br>
+<b>(A) 🔍 Project Purpose<br></b>
 The purpose of this project is to demonstrate how to fetch and process data <br>
 using pure Bash scripting. It provides a lightweight, dependency-minimal solution <br>
 for accessing APIs, downloading datasets, and automating simple data retrieval tasks <br>
