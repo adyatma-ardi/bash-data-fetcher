@@ -43,20 +43,20 @@ On Native windwos systems (without WSL), it's recommended to use Git Bash or an 
 
 <b>(B) 🚀 Installation Steps</b><br>
 a. Using Terminal (CLI method)
-    - Clone the repo:<br>
-      ```bash
-      git clone https://github.com/adyatma-ardi/bash-data-fetcher.git
-      cd bash-data-fetcher
-      ```
-    -  Make the script executable
-       ```bash
-       chmod +x fetch.sh
-       ```
-    -  (optional) Add to your PATH:
-       ```bash
-       echo 'export PATH="$PATH:$HOME/bash-data-fetcher"' >> ~/.bashrc
-       source ~/.bashrc
-       ```
+  - Clone the repo:<br>
+    ```bash
+    git clone https://github.com/adyatma-ardi/bash-data-fetcher.git
+    cd bash-data-fetcher
+    ```
+  - Make the script executable
+    ```bash
+     chmod +x fetch.sh
+    ```
+  - (optional) Add to your PATH:
+    ```bash
+    echo 'export PATH="$PATH:$HOME/bash-data-fetcher"' >> ~/.bashrc
+    source ~/.bashrc
+    ```
 b. Using GitHub Desktop (GUI method)
     1. Clone this repository using GitHub Desktop
     2. Navigate to the folder on your computer
@@ -64,7 +64,7 @@ b. Using GitHub Desktop (GUI method)
     4. Run:
        ```bash
        chmod +x fetch.sh
-   ```
+       ```
 
 
 (A) 🔍 Project Purpose<br>
