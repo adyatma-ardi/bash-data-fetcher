@@ -42,14 +42,30 @@ Note:<br>
 On Native windwos systems (without WSL), it's recommended to use Git Bash or an equivalent terminal that supports Bash scripting.<br>
 
 (B) 🚀 Installation Steps<br>
-<u>Using Terminal (CLI method)</u>
+<b>a. Using Terminal (CLI method)</b>
 - Clone the repo:<br>
   ```bash
   git clone https://github.com/adyatma-ardi/bash-data-fetcher.git
   cd bash-data-fetcher
   ```
--  
-
+-  Make the script executable
+  ```bash
+  chmod +x fetch.sh
+  ```
+-  (optional) Add to your PATH:
+  ```bash
+  echo 'export PATH="$PATH:$HOME/bash-data-fetcher"' >> ~/.bashrc
+  source ~/.bashrc
+  ```
+<b>b. Using GitHub Desktop (GUI method)</b>
+1. Clone this repository using GitHub Desktop
+2. Navigate to the folder on your computer
+3. Open your terminal in that directory
+4. Run:
+   ```bash
+  chmod +x fetch.sh
+  ```
+5. 
 
 
 (A) 🔍 Project Purpose<br>
