@@ -41,7 +41,7 @@ Internet: Required for fetching data from APIs or external sources<br>
 Note:<br>
 On Native windwos systems (without WSL), it's recommended to use Git Bash or an equivalent terminal that supports Bash scripting.<br>
 
-<b>(B) 🚀 Installation Steps</b><br>
+<b>(B) Installation Steps</b><br>
 a. Using Terminal (CLI method)
   - Clone the repo:<br>
     ```bash
@@ -65,7 +65,6 @@ b. Using GitHub Desktop (GUI method)
       ```bash
        chmod +x fetch.sh
       ```
-      <br>
 ### <b>Initial Configuration</b><br>
    1. Create yout ow
    2. Navigate to the folder on your computer
