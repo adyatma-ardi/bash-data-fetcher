@@ -65,7 +65,7 @@ b. Using GitHub Desktop (GUI method)
       ```bash
        chmod +x fetch.sh
       ```
-(B.3) Initial Configuration<br>
+<b>(B.3) Initial Configuration</b><br>
 1. Create your own config file
    ```bash
    cp .env.example .env
