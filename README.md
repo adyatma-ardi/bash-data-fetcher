@@ -49,11 +49,13 @@ On Native windwos systems (without WSL), it's recommended to use Git Bash or an 
   cd bash-data-fetcher
   ```
 -  Make the script executable
-  ```bash
+  ```
+  bash
   chmod +x fetch.sh
   ```
 -  (optional) Add to your PATH:
-  ```bash
+  ```
+  bash
   echo 'export PATH="$PATH:$HOME/bash-data-fetcher"' >> ~/.bashrc
   source ~/.bashrc
   ```
