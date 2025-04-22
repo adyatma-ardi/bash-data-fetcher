@@ -58,13 +58,13 @@ a. Using Terminal (CLI method)
     source ~/.bashrc
     ```
 b. Using GitHub Desktop (GUI method)
-    1. Clone this repository using GitHub Desktop
-    2. Navigate to the folder on your computer
-    3. Open your terminal in that directory
-    4. Run:
-       ```bash
+   1. Clone this repository using GitHub Desktop
+   2. Navigate to the folder on your computer
+   3. Open your terminal in that directory
+   4. Run:
+      ```bash
        chmod +x fetch.sh
-       ```
+      ```
 
 
 (A) 🔍 Project Purpose<br>
