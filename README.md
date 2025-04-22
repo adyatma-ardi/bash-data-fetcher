@@ -1,12 +1,12 @@
 # bash-data-fetcher
 
-### 📘 <b>Introduction</b><br>
-<b>(A) 🔍 Project Purpose<br></b>
+### <b>Introduction</b><br>
+<b>(A) Project Purpose<br></b>
 The purpose of this project is to demonstrate how to fetch and process data <br>
 using pure Bash scripting. It provides a lightweight, dependency-minimal solution <br>
 for accessing APIs, downloading datasets, and automating simple data retrieval tasks <br>
 directly from the command line<br><br>
-<b>(B) 🛠️ Brief Description</b><br>
+<b>(B) Brief Description</b><br>
 "<i>bash-data-fetcher</i>" is a collection of reusable Bash scripts designed to interact <br>
 with web APIs or public data sources using tools like <i>curl, wget, and jq</i>. The scripts <br>
 include functionalities such as:<br>
@@ -17,15 +17,15 @@ include functionalities such as:<br>
   
 This project is ideal for those looking to automate data fetching without relying on heavier <br>
 programming environments like Python or Node.js.<br><br>
-<b>(C) 🎯 Target Users</b><br>
+<b>(C) Target Users</b><br>
 This repository is created for:<br>
 - System administrators who need to automate regular data pulls
 - Data engineers working in low-resource environments or shell-first systems.
 - Developers who want quick CLI tools for API testing and prototyping
 - Linux/Bash learners seeking hands-on examples of practical shell scripting 
 
-### 📘 <b>Installation and Setup</b><br>
-<b>(A) ⚙️ System Requirements</b><br>
+### <b>Installation and Setup</b><br>
+<b>(A) System Requirements</b><br>
 Before installing and using "bash-data-fetcher", ensure your system meets the following minimum <br>
 requirements:<br>
 Operating System: Linux, macOS, or Windows with WSL<br>
@@ -65,7 +65,15 @@ b. Using GitHub Desktop (GUI method)
       ```bash
        chmod +x fetch.sh
       ```
-
+      <br>
+### <b>Initial Configuration</b><br>
+   1. Create yout ow
+   2. Navigate to the folder on your computer
+   3. Open your terminal in that directory
+   4. Run:
+      ```bash
+       chmod +x fetch.sh
+      ```
 
 (A) 🔍 Project Purpose<br>
 (A) 🔍 Project Purpose<br>
