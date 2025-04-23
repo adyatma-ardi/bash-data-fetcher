@@ -83,8 +83,42 @@ b. Using GitHub Desktop (GUI method)
    ```bash
    ./fetch.sh --test
    ```
+   You should see a "Connection successful!" or sample output on your terminal
 
-(A) 🔍 Project Purpose<br>
-(A) 🔍 Project Purpose<br>
-(A) 🔍 Project Purpose<br>
-(A) 🔍 Project Purpose<br>
+### <b>C. Project Structure 🗂️</b><br>
+This section outlines the structure of the "bash-data-fetcher" project so you<br>
+can easily navigate and understand its components. <br>
+<b>(C.1) Explanation of Main folders and Files</b><br>
+  1. fetch.sh : The main executable Bash script that handles data fetching logic.<br> This is the entry point of the project
+  2. .env.example : Template for environment variables (API URL, output format, etc). <br>Copy it to .env to configure
+  3. .env : your actual configuration file (ignored by Git). Used for customizing fetch behavior
+  4. utils/ : contains helper scripts (e.g., data cleaning, formatting functions) to keep fetch.sh clean
+  5. logs/ : stores log files generated from fetch runs for debugging or auditing
+  6. output/ : output folder where fetched data (JSON/CSV/etc.) is saved, if SAVE_TO_FILE=true
+  7. README.md : the documentation file you're reading right now. Includes setup and usage instructions.
+  8. LICENSE : the license file for the project
+  9. .gitignore: specifies which files/folders Git should ignore (like .env, logs/, etc).
+
+<b>(C.2) Project Structure Diagram</b><br>
+Here's a simplified overview of how the project is organized
+bash-data-fetcher/
+│
+├── fetch.sh                # 🔧 Main script
+├── .env.example            # 🧪 Sample environment config
+├── .env                    # ⚙️ Actual user config (ignored by Git)
+├── README.md               # 📖 Documentation
+├── LICENSE                 # 📜 License info
+├── .gitignore              # 🚫 Git ignore rules
+│
+├── utils/                  # 📦 Utility functions
+│   └── format_output.sh    # Example: output formatting script
+│
+├── logs/                   # 📝 Runtime logs
+│   └── fetch-2025-04-23.log
+│
+└── output/                 # 📁 Fetched data
+    └── result_001.json
+
+
+
+
