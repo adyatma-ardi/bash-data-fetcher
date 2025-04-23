@@ -89,8 +89,8 @@ b. Using GitHub Desktop (GUI method)
 This section outlines the structure of the "bash-data-fetcher" project so you<br>
 can easily navigate and understand its components. <br>
 <b>(C.1) Explanation of Main folders and Files</b><br>
-  1. fetch.sh : The main executable Bash script that handles data fetching logic.<br> This is the entry point of the project
-  2. .env.example : Template for environment variables (API URL, output format, etc). <br>Copy it to .env to configure
+  1. fetch.sh : The main executable Bash script that handles data fetching logic.This is the entry point of the project
+  2. .env.example : Template for environment variables (API URL, output format, etc). Copy it to .env to configure
   3. .env : your actual configuration file (ignored by Git). Used for customizing fetch behavior
   4. utils/ : contains helper scripts (e.g., data cleaning, formatting functions) to keep fetch.sh clean
   5. logs/ : stores log files generated from fetch runs for debugging or auditing
@@ -102,22 +102,22 @@ can easily navigate and understand its components. <br>
 <b>(C.2) Project Structure Diagram</b><br>
 Here's a simplified overview of how the project is organized
 bash-data-fetcher/
-│
-├── fetch.sh                # 🔧 Main script
-├── .env.example            # 🧪 Sample environment config
-├── .env                    # ⚙️ Actual user config (ignored by Git)
-├── README.md               # 📖 Documentation
-├── LICENSE                 # 📜 License info
-├── .gitignore              # 🚫 Git ignore rules
-│
-├── utils/                  # 📦 Utility functions
-│   └── format_output.sh    # Example: output formatting script
-│
-├── logs/                   # 📝 Runtime logs
-│   └── fetch-2025-04-23.log
-│
-└── output/                 # 📁 Fetched data
-    └── result_001.json
+│<br>
+├── fetch.sh                # 🔧 Main script<br>
+├── .env.example            # 🧪 Sample environment config<br>
+├── .env                    # ⚙️ Actual user config (ignored by Git)<br>
+├── README.md               # 📖 Documentation<br>
+├── LICENSE                 # 📜 License info<br>
+├── .gitignore              # 🚫 Git ignore rules<br>
+│<br>
+├── utils/                  # 📦 Utility functions<br>
+│   └── format_output.sh    # Example: output formatting script<br>
+│<br>
+├── logs/                   # 📝 Runtime logs<br>
+│   └── fetch-2025-04-23.log<br>
+│<br>
+└── output/                 # 📁 Fetched data<br>
+    └── result_001.json<br>
 
 
 
