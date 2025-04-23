@@ -100,8 +100,9 @@ can easily navigate and understand its components. <br>
   9. .gitignore: specifies which files/folders Git should ignore (like .env, logs/, etc).
 
 <b>(C.2) Project Structure Diagram</b><br>
-Here's a simplified overview of how the project is organized
-bash-data-fetcher/
+Here's a simplified overview of how the project is organized<br><br>
+
+bash-data-fetcher/<br>
 │<br>
 ├── fetch.sh                # 🔧 Main script<br>
 ├── .env.example            # 🧪 Sample environment config<br>
