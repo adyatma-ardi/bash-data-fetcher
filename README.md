@@ -1,6 +1,6 @@
 # bash-data-fetcher
 
-### <b>A. Introduction</b><br>
+### <b>A. Introduction 📖</b><br>
 <b>(A.1) Project Purpose<br></b>
 The purpose of this project is to demonstrate how to fetch and process data <br>
 using pure Bash scripting. It provides a lightweight, dependency-minimal solution <br>
@@ -23,8 +23,8 @@ This repository is created for:<br>
 - Data engineers working in low-resource environments or shell-first systems.
 - Developers who want quick CLI tools for API testing and prototyping
 - Linux/Bash learners seeking hands-on examples of practical shell scripting 
-
-### <b>B. Installation and Setup</b><br>
+<br><br>
+### <b>B. Installation and Setup ⚙️</b><br>
 <b>(B.1) System Requirements</b><br>
 Before installing and using "bash-data-fetcher", ensure your system meets the following minimum <br>
 requirements:<br>
@@ -84,7 +84,7 @@ b. Using GitHub Desktop (GUI method)
    ./fetch.sh --test
    ```
    You should see a "Connection successful!" or sample output on your terminal
-
+<br><br>
 ### <b>C. Project Structure 🗂️</b><br>
 This section outlines the structure of the "bash-data-fetcher" project so you<br>
 can easily navigate and understand its components. <br>
